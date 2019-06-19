@@ -24,7 +24,7 @@
 </p>
 
 - **🔥Name💭**
-  - 🐠**`EscapeLife`**😏
+  - 🐠**`EscapeLife =.=`**😏
 - **🔥Induction💭**
   - 🏦**`Focusing P.A.I =.=`**😂
 - **🔥Email💭**
