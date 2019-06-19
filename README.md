@@ -1,5 +1,5 @@
 <p align=center>
-  <a href="https://github.com/EscapeLife/love_girlfriend.git">
+  <a href="https://github.com/EscapeLife/love_grilfriend.git">
     <img src="https://escapelife-1257414824.cos.ap-shanghai.myqcloud.com/never-forget-why-you-started.gif" width="680" height="120" alt="Raspi-X" >
   </a>
 </p>
@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Project-love_girlfriend-green.svg?style=for-the-badge&logo=ubuntu" alt="love_girlfriend"></a>
-  <a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Author-Escape-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
-  <a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Languages-Shell-yellow.svg?style=for-the-badge&logo=python" alt="love_girlfriend"></a>
-  <a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Contributions-Weclone-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
+  <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Project-love_girlfriend-green.svg?style=for-the-badge&logo=ubuntu" alt="love_girlfriend"></a>
+  <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Author-Escape-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
+  <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Languages-Shell-yellow.svg?style=for-the-badge&logo=python" alt="love_girlfriend"></a>
+  <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Contributions-Weclone-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
 </p>
 
 ## Introduction
