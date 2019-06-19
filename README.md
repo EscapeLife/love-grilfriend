@@ -15,6 +15,9 @@
   <a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Contributions-Weclone-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
 </p>
 
+## Introduction
+
+## Function
 
 ## Contact
 
