@@ -1,0 +1,6 @@
+*
+.*
+!config/config-prod.yml
+!docker/healthcheck.sh
+!grilfriend
+!misc/requirements-prod.txt
