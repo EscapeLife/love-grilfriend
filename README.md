@@ -24,11 +24,11 @@
 </p>
 
 - **💭 [Name] 💭**
-  - 🐠 **`EscapeLife`** 😏
+  - 🐠 **[`EscapeLife`](https://escapelife.github.io)** 😏
 - **💭 [Induction] 💭**
-  - 🏦 **`Focusing P.A.I`** 😂
+  - 🏦 **[`Focusing P.A.I`](https://paodingai.com/)** 😂
 - **💭 [Email] 💭**
-  - 📫 **`wenpanhappy@gmail.com`** 🤔
+  - 📫 **[`wenpanhappy@gmail.com`](https://escapelife.github.io)** 🤔
 - **💭 [Myblog] 💭**
   - 🍺 **[`https://escapelife.github.io`](https://escapelife.github.io)** 😚
 - **💭 [License] 💭**
