@@ -24,9 +24,9 @@
 </p>
 
 - **🔥Name💭**
-  - 🐠**`EscapeLife =.=`**😏
+  - 🐠**`EscapeLife`**😏
 - **🔥Induction💭**
-  - 🏦**`Focusing P.A.I =.=`**😂
+  - 🏦**`Focusing P.A.I`**😂
 - **🔥Email💭**
   - 📫**`wenpanhappy@gmail.com`**🤔
 - **🔥Myblog💭**
