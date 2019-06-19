@@ -15,13 +15,15 @@
 </p>
 
 
-### Contact
+## Contact
 
-> **Below is my personal contact information. **
+> **Below is my personal contact information.**
 
 <p align="center">
     <img src="https://escapelife-1257414824.cos.ap-shanghai.myqcloud.com/escape-wechat-qrcode-1.gif" width="280" height="280" alt="WX" align="left" />
 </p>
 
-- **MyBlog:** `https://escapelife.github.io/`
-- **E-Mail:** `wenpanhappy@gmail.com`
+- **MyBlog**
+  - `https://escapelife.github.io/`
+- **E-Mail**
+  - `wenpanhappy@gmail.com`
