@@ -10,6 +10,6 @@
 
 <p align="center">
 	<a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Project-love_girlfriend-green.svg?style=for-the-badge&logo=python" alt="love_girlfriend"></a>
-	<a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Author-Escape-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
+	<a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Author-EscapeLife-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
 	<a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Version-V1.0.0-blue.svg?style=for-the-badge&logo=livejournal" alt="love_girlfriend"></a>
 </p>
