@@ -24,12 +24,12 @@
 </p>
 
 - **🔥Name💭**
-  - 🐠**EscapeLife**😏
+  - 🐠**`EscapeLife`**😏
 - **🔥Induction💭**
-  - 🏦**Focusing P.A.I =.=**😂
+  - 🏦**`Focusing P.A.I =.=`**😂
 - **🔥Email💭**
-  - 📫**wenpanhappy@gmail.com**🤔
+  - 📫**`wenpanhappy@gmail.com`**🤔
 - **🔥Myblog💭**
-  - 🍺**https://escapelife.github.io**😚
+  - 🍺**`https://escapelife.github.io`**😚
 - **🔥License💭**
-  - 🚧[**Apache License, Version 2.0**](http://www.apache.org/licenses/LICENSE-2.0.html)😝
+  - 🚧[**`Apache License, Version 2.0`**](http://www.apache.org/licenses/LICENSE-2.0.html)😝
