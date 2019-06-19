@@ -1,6 +1,6 @@
 <p align=center>
   <a href="https://github.com/EscapeLife/love_girlfriend.git">
-    <img src="./images/./images/never-forget-why-you-started.gif" width="680" height="120" alt="Raspi-X" >
+    <img src="https://github.com/EscapeLife/love_girlfriend/blob/master/images/never-forget-why-you-started.gif" width="680" height="120" alt="Raspi-X" >
   </a>
 </p>
 
