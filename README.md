@@ -13,3 +13,15 @@
 	<a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Author-EscapeLife-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
 	<a href="https://github.com/EscapeLife/love_girlfriend.git"><img src="https://img.shields.io/badge/Version-V1.0.0-blue.svg?style=for-the-badge&logo=livejournal" alt="love_girlfriend"></a>
 </p>
+
+
+### Contact
+
+> **Below is my personal contact information. **
+
+<p align="center">
+    <img src="https://escapelife-1257414824.cos.ap-shanghai.myqcloud.com/escape-wechat-qrcode-1.gif" width="280" height="280" alt="WX" align="left" />
+</p>
+
+- **MyBlog:** `https://escapelife.github.io/`
+- **E-Mail:** `wenpanhappy@gmail.com`
