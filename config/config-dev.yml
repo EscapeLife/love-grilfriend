@@ -1,0 +1,47 @@
+# --------- 常用功能设置 ---------
+auto_hot_login: True
+
+
+# --------- 自动回复设置 ---------
+auto_replay: True
+
+auto_rebot: False
+rebot_conf:
+  client_token: 'a8105204604a0b11e916f3879aae3b0b'
+
+replay_user_conf:
+  - '文件传输助手'
+
+replay_group_conf:
+  - group_name: 'ipython'
+    at_key: True
+    replay_key: 'ipython'
+
+
+# --------- 定时任务设置 ---------
+auto_alarm: True
+alarm_conf:
+  alarm_time: '12:00'
+
+gril_friend:
+  - wechat_alias: '文件传输助手'
+    nickname: '小助手'
+    city_name: '北京'
+    alarm_time: '17:00'
+    send_type:
+      - one
+      - weather
+    send_message:
+      - '把今天上传的图片整理成相册'
+    love_date: '20190214'
+
+group_friend:
+  - group_name: 'ipython'
+    city_name: '西安'
+    alarm_time: '21:00'
+    send_type:
+      - one
+      - weather
+    send_message:
+      - 'I love ipython very much.'
+    build_date: '20190601'

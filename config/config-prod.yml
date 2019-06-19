@@ -1,0 +1,69 @@
+# --------- 常用功能设置 ---------
+
+# 是否启用微信热登录
+auto_hot_login: False
+
+
+# --------- 自动回复设置 ---------
+
+# 是否开启女友/群聊自动回复(默认为False)
+auto_replay: False
+
+# 是否开启自动回复智能机器人(默认为False)
+auto_rebot: False
+rebot_conf:
+  client_token: 'a8105204604a0b11e916f3879aae3b0b'
+
+# 自动回复的女友/群聊名单(可为空|可添加多个)
+replay_user_conf:
+  - '一只会飞的小猪'  # 女友
+  - '梦里花落知多少'  # 女友
+
+# 自动回复的女友/群聊名单(可为空|可添加多个)
+replay_group_conf:
+  - group_name: '袁家村狂狼分队'  # 群聊
+    at_key: False  # 只有@自己时才会发送对应消息
+    replay_key: '天气'  # 只有触发特定关键词时才会发送对应消息
+
+
+# --------- 定时任务设置 ---------
+
+# 是否开启定时任务(默认为False)
+auto_alarm: False
+alarm_conf:
+  alarm_time: '12:00'
+
+# 定时回复的女友名单(可为空|可添加多个)
+gril_friend:
+  - wechat_alias: '一只会飞的小猪'  # 微信昵称或备注名
+    nickname: '小猪猪'  # 回复消息的昵称
+    city_name: '北京'  # 所在城市
+    alarm_time: '12:00'  # 发送时间
+    send_type:  # 发送消息类型
+      - one  # 散文
+      - weather  # 天气
+    send_message:  # 发送文本消息
+      - '今天中午我看见了一个美女'  # 文本消息内容
+    love_date: '20190214'  # 相爱的日期
+  - wechat_alias: '梦里花落知多少'
+    nickname: '小花花'
+    city_name: '上海'
+    alarm_time: '17:00'
+    send_type:
+      - one
+      - weather
+    send_message:
+      - '今天中午我看见了一个美女'
+    love_date: '20190214'
+
+# 定时回复的群聊名单(可为空|可添加多个)
+group_friend:
+  - group_name: '袁家村狂狼分队'
+    city_name: '深圳'
+    alarm_time: '21:00'
+    send_type:
+      - one
+      - weather
+    send_message:
+      - '今天中午我看见了一个美女'
+    build_date: '20190601'
