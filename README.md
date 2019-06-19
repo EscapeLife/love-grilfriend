@@ -5,6 +5,6 @@
 </p>
 
 <p align=center>
-  love_girlfriend - ❤️爱自己女朋友就是爱自己
+  <b>love_girlfriend - ❤️爱自己女朋友就是爱自己</b>
 </p>
 
