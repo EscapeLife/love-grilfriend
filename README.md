@@ -23,13 +23,13 @@
     <img src="https://escapelife-1257414824.cos.ap-shanghai.myqcloud.com/escape-wechat-qrcode-1.gif" width="280" height="280" alt="WX" align="left" />
 </p>
 
-- **💭 Name**
+- **💭 Name 💭**
   - 🐠 **`EscapeLife`** 😏
-- **💭 Induction💭**
+- **💭 Induction 💭**
   - 🏦 **`Focusing P.A.I`** 😂
-- **💭 Email💭**
+- **💭 Email 💭**
   - 📫 **`wenpanhappy@gmail.com`** 🤔
-- **💭 Myblog💭**
+- **💭 Myblog 💭**
   - 🍺 **`https://escapelife.github.io`** 😚
-- **💭 License💭**
+- **💭 License 💭**
   - 🚧 [**`Apache License, Version 2.0`**](http://www.apache.org/licenses/LICENSE-2.0.html)😝
