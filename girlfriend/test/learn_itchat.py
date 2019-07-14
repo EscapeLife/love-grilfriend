@@ -1,26 +1,25 @@
+# -*- coding: utf-8 -*-
+"""简单介绍了关于itchat模块的使用技巧"""
+
 import time
 import json
 
 import itchat
-from itchat.content import *
-import requests
 
 
 # ------------------------------------------------
 # 发送消息给好友
 # ------------------------------------------------
-friend = itchat.search_friends(nickName='🌵Ms.圆')[0]
+friend = itchat.search_friends(nickName='Escape')[0]
 print(json.dumps(friend, sort_keys=True, indent=4, separators=(',', ':')))
-friend.send('你现在到哪里了呢？什么时候回家呢？')
+friend.send('Happy New Year.')
 
 # ------------------------------------------------
 # 发送消息给群聊
 # ------------------------------------------------
-chatroom = itchat.search_chatrooms(name='怂都弄不成')[0]
+chatroom = itchat.search_chatrooms(name='EscapeGroup')[0]
 print(json.dumps(chatroom, sort_keys=True, indent=4, separators=(',', ':')))
-chatroom.send('都干啥呢')
-
-
+chatroom.send('Happy New Year.')
 
 
 
@@ -28,24 +27,24 @@ chatroom.send('都干啥呢')
 # 各类型消息的注册
 # 就日常的各种信息进行获取与回复
 # ------------------------------------------------
-@itchat.msg_register([TEXT, MAP, CARD, NOTE, SHARING])
+@itchat.msg_register([itchat.content.TEXT, itchat.content.MAP, itchat.content.CARD, itchat.content.NOTE, itchat.content.SHARING])
 def text_friend_reply(msg):
     msg.user.send('%s: %s' % (msg.type, msg.text))
 
-@itchat.msg_register([PICTURE, RECORDING, ATTACHMENT, VIDEO])
+@itchat.msg_register([itchat.content.PICTURE, itchat.content.RECORDING, itchat.content.ATTACHMENT, itchat.content.VIDEO])
 def download_files(msg):
     msg.download(msg.fileName)
     typeSymbol = {
-        PICTURE: 'img',
-        VIDEO: 'vid', }.get(msg.type, 'fil')
+        itchat.content.PICTURE: 'img',
+        itchat.content.VIDEO: 'vid', }.get(msg.type, 'fil')
     return '@%s@%s' % (typeSymbol, msg.fileName)
 
-@itchat.msg_register(FRIENDS)
+@itchat.msg_register(itchat.content.FRIENDS)
 def add_friend(msg):
     msg.user.verify()
     msg.user.send('Nice to meet you!')
 
-@itchat.msg_register(TEXT, isGroupChat=True)
+@itchat.msg_register(itchat.content.TEXT, isGroupChat=True)
 def text_chatroom_reply(msg):
     if msg.isAt:
         msg.user.send(u'@%s\u2005I received: %s' % (msg.actualNickName, msg.text))
