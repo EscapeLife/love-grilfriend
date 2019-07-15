@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
-"""利用腾讯AI平台实现一个自动回复的聊天机器人"""
+"""
+利用腾讯AI平台实现一个自动回复的聊天机器人
+
+Usage:
+    CHATBOT = Chatbot(app_id='123456', app_key='123456')
+    print(CHATBOT.get_chat_text('爱自己女朋友就是爱自己'))
+"""
 
 import time
 import random
@@ -49,8 +55,3 @@ class Chatbot:
                 return data_dict['data']['answer']
             print('The tencent smart chat failed to get data:{}'.format(data_dict['msg']))
         return 'The tencent ai platform interface call failed.'
-
-
-if __name__ == '__main__':
-    CHATBOT = Chatbot(app_id='123456', app_key='123456')
-    print(CHATBOT.get_chat_text('爱自己女朋友就是爱自己'))

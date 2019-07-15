@@ -1,5 +1,13 @@
 # -*- coding: utf-8 -*-
-"""一个消息群发助手"""
+"""
+一个消息群发助手
+
+Usage:
+    itchat.auto_login(hotReload=True, enableCmdQR=2)
+    MASS = MassMSG()
+    MASS.send_all_friends_msg()
+    MASS.send_special_group_msg()
+"""
 
 import time
 import itchat
@@ -35,10 +43,3 @@ class MassMSG:
                 itchat.send(f'{self.greetings} | {friend["NickName"]}', friend['UserName'])
                 print(f'>>> send {friend["NickName"]} is finished.')
                 time.sleep(3)
-
-
-if __name__ == '__main__':
-    itchat.auto_login(hotReload=True, enableCmdQR=2)
-    MASS = MassMSG()
-    MASS.send_all_friends_msg()
-    MASS.send_special_group_msg()

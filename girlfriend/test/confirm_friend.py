@@ -3,6 +3,11 @@
 检测是否有删除自己或把自己拉入黑名单的朋友
 原理: 将好友拉入群聊时，非好友和黑名单好友不会被拉入群聊
 隐蔽: 群聊在第一次产生普通消息时才会被除创建者以外的人发现的(系统消息不算普通消息)
+
+Usage:
+    itchat.auto_login(hotReload=True, enableCmdQR=2)
+    CONFIRM = ConfirmFriend()
+    CONFIRM.get_friend_status()
 """
 
 import itchat
@@ -48,9 +53,3 @@ class ConfirmFriend:
                 itchat.delete_member_from_chatroom(chatroom['UserName'], [friend])
                 return self.status_dict.get(friend_status, '该好友仍旧与你是好友关系')
             return u'无法获取好友状态，预计已经达到接口调用限制。'
-
-
-if __name__ == '__main__':
-    itchat.auto_login(hotReload=True, enableCmdQR=2)
-    CONFIRM = ConfirmFriend()
-    CONFIRM.get_friend_status()
