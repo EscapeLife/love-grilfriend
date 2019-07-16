@@ -3,25 +3,30 @@
 利用腾讯AI平台实现一个自动回复的聊天机器人
 
 Usage:
-    CHATBOT = Chatbot(app_id='123456', app_key='123456')
-    print(CHATBOT.get_chat_text('爱自己女朋友就是爱自己'))
+    from girlfriend.components.ai_robot import Chatbot
+    it = Chatbot('your_app_id', 'your_app_key')
+    it.run('text')
 """
 
+from urllib import parse
 import requests
 
 from girlfriend.utils.tencent import get_time_stamp, get_nonce_str
 from girlfriend.utils.tencent import md5_encode, get_request_sign
 
+CONTENTTYPE = {
+    'Content-Type': 'application/x-www-form-urlencoded'
+}
 
 class Chatbot:
     """腾讯聊天机器人"""
     def __init__(self, app_id=None, app_key=None):
         self.app_id = app_id
         self.app_key = app_key
-        self.tencent_ai_url = 'https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat'
+        self.tencent_chat_url = 'https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat'
 
-    def get_chat_text(self, text):
-        """获取返回的聊天信息"""
+    def make_params(self, text):
+        """获取调用接口的参数"""
         if self.app_id is None or self.app_key is None:
             print('The app_id or app_key is none, please check.')
         params = {
@@ -31,12 +36,16 @@ class Chatbot:
             'session': md5_encode(self.app_id),  # 会话标识
             'question': text                     # 用户输入的聊天内容
         }
-        params['sign'] = get_request_sign(params, self.app_key) # 签名信息
+        params['sign'] = get_request_sign(params, self.app_key)  # 签名信息
+        return params
 
-        response = requests.get(self.tencent_ai_url, params=params)
+    def run(self, text):
+        """执行方法(可多次执行)"""
+        params = self.make_params(text)
+        response = requests.post(self.tencent_chat_url,
+                                 data=parse.urlencode(params).encode("utf-8"),
+                                 headers=CONTENTTYPE)
         if response.status_code == 200:
             data_dict = response.json()
             if data_dict['ret'] == 0:
-                return data_dict['data']['answer']
-            print('The tencent smart chat failed to get data:{}'.format(data_dict['msg']))
-        return 'The tencent ai platform interface call failed.'
+                print(data_dict['data']['answer'])
