@@ -35,7 +35,7 @@ class PictureOCR:
             'image': get_base64(pic_param),  # 图片内容
             'card_type': 0,                  # 仅识别正面照片
             'time_stamp': get_time_stamp(),  # 请求时间戳(秒级)
-            'nonce_str': get_nonce_str()    # 随机字符串
+            'nonce_str': get_nonce_str()     # 随机字符串
         }
         params['sign'] = get_request_sign(params, self.app_key)  # 签名信息
         return params
