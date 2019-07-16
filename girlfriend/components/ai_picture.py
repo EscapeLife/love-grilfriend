@@ -34,7 +34,7 @@ class PicToText:
             'app_id': self.app_id,           # 应用标识
             'time_stamp': get_time_stamp(),  # 请求时间戳(秒级)
             'nonce_str': get_nonce_str(),    # 随机字符串
-            'image': get_base64(pic_param),  # 用户输入的聊天内容
+            'image': get_base64(pic_param),  # 图片内容
             'session_id': get_time_stamp()   # 会话标识
         }
         params['sign'] = get_request_sign(params, self.app_key)  # 签名信息
