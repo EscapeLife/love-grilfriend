@@ -1,4 +1,4 @@
--r requirements-prod.txt
+-r prod-requirements.txt
 ipython
 pylint
 pycodestyle
