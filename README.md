@@ -75,9 +75,9 @@ As the saying goes, love your girlfriend is love yourself. That's the question, 
 
 > **The following is the project reference project**
 
-- [**`ItChat` - 微信个人号接口、微信机器人及命令行微信**](https://github.com/littlecodersh/ItChat)
-- [**`EverydayWechat` - 基于Python3与Itchat的微信小工具**](https://github.com/sfyc23/EverydayWechat)
-- [**`daily-warm` - 每天定时发邮件给你关心的人**](https://github.com/BarryYan/daily-warm)
+- [**`ItChat`](https://github.com/littlecodersh/ItChat)
+- [**`EverydayWechat`](https://github.com/sfyc23/EverydayWechat)
+- [**`daily-warm`](https://github.com/BarryYan/daily-warm)
 
 > **Below is my personal contact information.**
 
