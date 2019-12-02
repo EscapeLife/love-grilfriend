@@ -75,9 +75,9 @@ As the saying goes, love your girlfriend is love yourself. That's the question, 
 
 > **The following is the project reference project**
 
-- [**`ItChat`](https://github.com/littlecodersh/ItChat)
-- [**`EverydayWechat`](https://github.com/sfyc23/EverydayWechat)
-- [**`daily-warm`](https://github.com/BarryYan/daily-warm)
+- [**`ItChat`**](https://github.com/littlecodersh/ItChat)
+- [**`EverydayWechat`**](https://github.com/sfyc23/EverydayWechat)
+- [**`daily-warm`**](https://github.com/BarryYan/daily-warm)
 
 > **Below is my personal contact information.**
 
