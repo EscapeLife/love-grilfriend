@@ -79,6 +79,8 @@
 - [**`EverydayWechat` - 基于Python3与Itchat的微信小工具**](https://github.com/sfyc23/EverydayWechat)
 - [**`daily-warm` - 每天定时发邮件给你关心的人**](https://github.com/BarryYan/daily-warm)
 
+## 7. 联系方式
+
 > **以下是我的个人联系方式**
 
 <p align="center">
