@@ -12,7 +12,7 @@
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Project-love_girlfriend-green.svg?style=for-the-badge&logo=ubuntu" alt="love_girlfriend"></a>
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Author-Escape-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Languages-Python-yellow.svg?style=for-the-badge&logo=python" alt="love_girlfriend"></a>
-  <a href="https://github.com/EscapeLife/love_grilfriend/blob/master/docs/README_ZH.md"><img src="https://img.shields.io/badge/Docs-中文文档-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
+  <a href="https://github.com/EscapeLife/love_grilfriend/blob/master/docs/README_ZH.md"><img src="https://img.shields.io/badge/Docs-Chinese-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
 </p>
 
 ## 1. Introduction
