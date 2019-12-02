@@ -12,74 +12,74 @@
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Project-love_girlfriend-green.svg?style=for-the-badge&logo=ubuntu" alt="love_girlfriend"></a>
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Author-Escape-orange.svg?style=for-the-badge&logo=vim" alt="love_girlfriend"></a>
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Languages-Python-yellow.svg?style=for-the-badge&logo=python" alt="love_girlfriend"></a>
-  <a href="https://github.com/EscapeLife/love_grilfriend/blob/master/docs/README_ZH.md"><img src="https://img.shields.io/badge/Docs-Chinese-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
+  <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Docs-English-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
 </p>
 
-## 1. Introduction
+## 1. 项目介绍
 
-> **👊 girlfriend - > the wife 👰**
+> **👊 女朋友 -> 老婆 👰🏻**
 
-As the saying goes, love your girlfriend is love yourself. That's the question, how do we need to love? This project is created to care about my girlfriend. It borrows from EverydayWechat project and mainly contains the following functions:
+俗话说得好，爱自己的女朋友就是爱自己。那问题的关键就来了，我们需要怎么爱呢？该项目就是为了关心女友而创建，借鉴 [EverydayWechat](https://github.com/sfyc23/EverydayWechat) 项目，主要包含以下爱护功能：
 
-- **send specific messages to friends at regular times every day**
-  - warm heart words
-  - regular reminders
-- **the robot automatically replies to friend messages**
-  - auto reply when busy
-  - not during non-working hours
-- **additional extensions**
-  - weather information
-  - sentence of the day
-  - poetry of the day
-  - box office data
+- **每日定时给好友发送特定消息**
+  - 暖心话
+  - 定时提醒
+- **机器人自动回复好友消息**
+  - 忙碌时自动回复
+  - 非工作时间勿扰
+- **附加扩展功能**
+  - 天气信息
+  - 每日一句
+  - 每日诗歌
+  - 票房数据
 
-## 2. API
+## 2. API接口
 
-> **Describes the main API interface information used in the project**
+> **介绍项目中主要使用的API接口信息**
 
-- **Weather information**
+- **天气信息**
   - [**`SOJSON`**](sojson.com/blog/305.html)
   - [**`RollToolsApi`**](https://github.com/MZCretin/RollToolsApi#%E8%8E%B7%E5%8F%96%E7%89%B9%E5%AE%9A%E5%9F%8E%E5%B8%82%E4%BB%8A%E6%97%A5%E5%A4%A9%E6%B0%94)
-- **Daily sentence**
+- **每日一句**
   - [**`One`**](http://wufazhuce.com)
-  - [**`Hitokoto`**](hitokoto.cn)
-- **Intelligent robot**
-  - [**`TencentChat`**](ai.qq.com/product/nlpchat.shtml )
-- **Sales data**
-  - [**`Maoyan`**](piaofang.maoyan.com/dashboard)
-- **Air quality**
-  - [**`Aqicn`**](http://aqicn.org/here)
+  - [**`一言`**](hitokoto.cn)
+- **智能机器人**
+  - [**`腾讯智能闲聊`**](ai.qq.com/product/nlpchat.shtml )
+- **票房数据**
+  - [**`猫眼实时票房`**](piaofang.maoyan.com/dashboard)
+- **空气质量**
+  - [**`aqicn`**](http://aqicn.org/here)
 
-## 3. Configuration
+## 3. 配置文件
 
-> **Describes the configuration methods and methods of configuration files**
+> **介绍配置文件的配置方式和方法**
 
 ```yaml
 
 ```
 
-## 4. Exhibition
+## 4. 效果展示
 
-> **Please see the screenshot.**
+> **请看效果截图**
 
-![exhibition]()
+![love_girlfriend]()
 
-## 5. TodoList
+## 5. 计划列表
 
-> **Functions and features to be prepared or expected to be implemented**
+> **准备或者预计实现的功能和特性**
 
-- Converts a timed send message into a picture
-- Additional extensions support daily poetry
+- 将定时发送消息转换成图片形式
+- 附加扩展功能支持每日诗歌
 
-## 6. Credits
+## 6. 参考项目
 
-> **The following is the project reference project**
+> **下面是该项目参考项目**
 
-- [**`ItChat`**](https://github.com/littlecodersh/ItChat)
-- [**`EverydayWechat`**](https://github.com/sfyc23/EverydayWechat)
-- [**`daily-warm`**](https://github.com/BarryYan/daily-warm)
+- [**`ItChat` - 微信个人号接口、微信机器人及命令行微信**](https://github.com/littlecodersh/ItChat)
+- [**`EverydayWechat` - 基于Python3与Itchat的微信小工具**](https://github.com/sfyc23/EverydayWechat)
+- [**`daily-warm` - 每天定时发邮件给你关心的人**](https://github.com/BarryYan/daily-warm)
 
-> **Below is my personal contact information.**
+> **以下是我的个人联系方式**
 
 <p align="center">
     <img src="https://escapelife-1257414824.cos.ap-shanghai.myqcloud.com/escape-wechat-qrcode-1.gif" width="280" height="280" alt="WX" align="left" />
