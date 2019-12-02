@@ -5,7 +5,7 @@
 </p>
 
 <p align=center>
-  <b>love_girlfriend ❤️爱自己女朋友就是爱自己</b>
+  <b>love_girlfriend ❤️爱自己女朋友就是爱自己 <a href="https://github.com/EscapeLife/love_grilfriend/blob/master/docs/README_ZH.md" alt="中文文档"></a></b>
 </p>
 
 <p align="center">

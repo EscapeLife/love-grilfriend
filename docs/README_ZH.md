@@ -68,7 +68,8 @@
 
 > **准备或者预计实现的功能和特性**
 
-- 
+- 将定时发送消息转换成图片形式
+- 附加扩展功能支持每日诗歌
 
 ## 6. 参考项目
 
@@ -78,7 +79,7 @@
 - [**`EverydayWechat` - 基于Python3与Itchat的微信小工具**](https://github.com/sfyc23/EverydayWechat)
 - [**`daily-warm` - 每天定时发邮件给你关心的人**](https://github.com/BarryYan/daily-warm)
 
-> **Below is my personal contact information.**
+> **以下是我的个人联系方式**
 
 <p align="center">
     <img src="https://escapelife-1257414824.cos.ap-shanghai.myqcloud.com/escape-wechat-qrcode-1.gif" width="280" height="280" alt="WX" align="left" />
