@@ -79,6 +79,8 @@ As the saying goes, love your girlfriend is love yourself. That's the question, 
 - [**`EverydayWechat`**](https://github.com/sfyc23/EverydayWechat)
 - [**`daily-warm`**](https://github.com/BarryYan/daily-warm)
 
+## 7. Contact
+
 > **Below is my personal contact information.**
 
 <p align="center">
