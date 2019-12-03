@@ -70,6 +70,9 @@
 
 - 将定时发送消息转换成图片形式
 - 附加扩展功能支持每日诗歌
+- 附加扩展功能支持地图查询([高德地图](https://lbs.amap.com/)|[腾讯地图](https://lbs.qq.com/webservice_v1/index.html))
+- 附加扩展功能支持新闻资讯([feedly](https://developer.feedly.com/)|[HackerNews](https://github.com/HackerNews/API)|[纽约时报](https://developer.nytimes.com/))
+- 附加扩展功能支持图片摄影([px500](https://github.com/500px/legacy-api-documentation))
 
 ## 6. 参考项目
 
