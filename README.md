@@ -15,8 +15,6 @@
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Docs-English-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
 </p>
 
----
-
 ![https://github.com/EscapeLife/love-grilfriend](./images/love-grilfriend.png)
 
 ## 1. 项目介绍
