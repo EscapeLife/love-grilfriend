@@ -15,6 +15,8 @@
   <a href="https://github.com/EscapeLife/love_grilfriend.git"><img src="https://img.shields.io/badge/Docs-English-blue.svg?style=for-the-badge&logo=coffeescript" alt="love_girlfriend"></a>
 </p>
 
+![https://github.com/EscapeLife/love-grilfriend](./images/love-grilfriend.png)
+
 ## 1. 项目介绍
 
 > **👊 女朋友 -> 老婆 👰🏻**
@@ -33,9 +35,9 @@
   - 每日诗歌
   - 票房数据
 
-## 2. API接口
+## 2. API 接口
 
-> **介绍项目中主要使用的API接口信息**
+> **介绍项目中主要使用的 API 接口信息**
 
 - **天气信息**
   - [**`SOJSON`**](sojson.com/blog/305.html)
@@ -44,7 +46,7 @@
   - [**`One`**](http://wufazhuce.com)
   - [**`一言`**](hitokoto.cn)
 - **智能机器人**
-  - [**`腾讯智能闲聊`**](ai.qq.com/product/nlpchat.shtml )
+  - [**`腾讯智能闲聊`**](ai.qq.com/product/nlpchat.shtml)
 - **票房数据**
   - [**`猫眼实时票房`**](piaofang.maoyan.com/dashboard)
 - **空气质量**
@@ -79,7 +81,7 @@
 > **下面是该项目参考项目**
 
 - [**`ItChat` - 微信个人号接口、微信机器人及命令行微信**](https://github.com/littlecodersh/ItChat)
-- [**`EverydayWechat` - 基于Python3与Itchat的微信小工具**](https://github.com/sfyc23/EverydayWechat)
+- [**`EverydayWechat` - 基于 Python3 与 Itchat 的微信小工具**](https://github.com/sfyc23/EverydayWechat)
 - [**`daily-warm` - 每天定时发邮件给你关心的人**](https://github.com/BarryYan/daily-warm)
 
 ## 7. 联系方式
